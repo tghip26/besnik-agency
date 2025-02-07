@@ -630,6 +630,10 @@ a {
   background-color: #f9f9f9;
 }
 
+.footer .social-link:hover {
+  background-color: #e6e6e6;
+}
+
 .footer .row-bottom {
   margin-top: 8.1rem;
   display: flex;
