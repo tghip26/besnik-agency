@@ -51,8 +51,18 @@ a {
 }
 
 /* Banner */
+.fix-header {
+  background: #e6f0ff;
+  top: -2.6rem;
+  padding-top: 2.6rem;
+  position: sticky;
+  z-index: 1;
+}
 
 .header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   background: #e6f0ff;
   height: 100vh;
   position: relative;
@@ -61,7 +71,9 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 1.2rem 0;
+  position: sticky;
+  top: 0;
 }
 
 .navbar .logo:hover {
