@@ -61,8 +61,6 @@ a {
 
 .header {
   position: relative;
-  display: flex;
-  flex-direction: column;
   background: #e6f0ff;
   height: 100vh;
   position: relative;
@@ -113,7 +111,7 @@ a {
 }
 
 .hero {
-  margin-top: 13rem;
+  padding-top: 13rem;
 }
 
 .hero .info {
